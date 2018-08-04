@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* 公用 */
+.comWidth {width:1200px; margin: 0 auto;}
+.clear{ zoom: 1; }
+.clear:after{ display: block; content: ""; clear: both; height: 0; overflow: hidden; }
+
+/* headerBar */
+.headerBar {
+    background-color: #25494b; line-height: 3;
+    font-size: 16px; font-family: "Microsoft YaHei";
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        background: red;
+    }
+}
+
+/* logo */
+.logo {width: 150px; padding-left: 44px;}
+.logo img {vertical-align: middle; padding-right: 3px;}
+.logo span {font-size: 18px; color: #FFFFFF;}
+
+/* 导航 */
+.nav {pading-left: 75px;}
+.nav li {float: left;}
+.nav .active {color: #00dad3;}
+.nav a {text-decoration:none; line-height: 60px; display: inline-block; padding: 0 25px; color: #FFFFFF;}
+
+/* 登录注册相关 */
+.entrance {line-height: 60px;}
+.entrance a {color: #FFFFFF; text-decoration:none;}
+
+
+/* footerBar */
+.footerBar {
+    height: 295px; background-color: #333333; font-size: 16px; font-family: "Microsoft YaHei";
+    border-style: solid;
+}
+
+.footerLogo {width: 350px; height: 295px; text-align: center;}
+.footerLogo img {margin: 0 auto; padding-top: 35px; display: block}
+.footerLogo p {font-size: 24px; font-family: "Arial"; text-align: center; padding-top: 20px; color: #FFFFFF}
+
+.siteMap, .contact {height: 295px; width: 180px; line-height: 25px; padding-top: 45px}
+.contact {width: 300px;}
+.siteMap a {text-decoration:none; font-size: 14px; font-family: "Microsoft YaHei"; color: white;}
+.contact p {text-decoration:none; font-size: 14px; font-family: "Microsoft YaHei"; color: white;}
+
+.footerBar .title {font-size: 18px; font-family: "Microsoft YaHei"; color: rgb(74, 188, 187);}
+
+.qrCode {padding-top: 45px; text-align: center; width: 200px}
+.qrCode p {font-size: 18px; font-family: "Microsoft YaHei"; color: #FFFFFF; line-height: 22px}
